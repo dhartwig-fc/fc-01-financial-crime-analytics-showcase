@@ -76,7 +76,7 @@ This capability depends on:
 
 ## Downstream Capabilities Enabled
 
-- [NI006 – AI Investigator Copilot](../06-ai-investigator-copilot/README.md)
+- [NI006 – AI Investigator Copilot](../../05-ai-investigator-copilot/README.md)
 
 ---
 
