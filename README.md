@@ -2,6 +2,12 @@
 
 Portfolio of Financial Crime Analytics, Network Intelligence, Trade-Based Money Laundering Detection, Correspondent Banking Analytics, Capital Markets Surveillance, Sanctions Exposure Analytics and AI-Enabled Investigation Workflows.
 
+> **Status, 12 November 2026.** This is the June 2026 capability showcase. It is no longer developed here and is kept as a record of the design journey.
+> The live showcase is **NEXUS**, the Financial Crime Intelligence Platform built from these ideas, on the portfolio site:
+> **https://dhartwig-fc.github.io/dan-hartwig-portfolio/projects/nexus/** (investigator console, published investigations, mission status, test phase).
+>
+> All data in this repository is synthetic demonstration data.
+
 ---
 
 ## Financial Crime Intelligence Platform
@@ -40,8 +46,8 @@ Each section demonstrates how analytical techniques can be applied to solve real
 | 02 | TBML Analytics | Trade Intelligence and Trade-Based Money Laundering |
 | 03 | Correspondent Banking Analytics | Payment Intelligence and Exposure Analysis |
 | 04 | Capital Markets Analytics | Market Abuse and Securities Layering Detection |
-| 05 | Sanctions Exposure Analytics | Ownership Evasion, Shadow Fleets and Exposure Assessment |
-| 06 | AI Investigator Copilot | AI-Assisted Investigation and Decision Support |
+| 05 | AI Investigator Copilot | AI-Assisted Investigation and Decision Support |
+| 06 | Sanctions Exposure Analytics | Ownership Evasion, Shadow Fleets and Exposure Assessment |
 
 ---
 
@@ -58,10 +64,12 @@ Correspondent Banking Analytics
         ↓
 Capital Markets Analytics
         ↓
-Sanctions Exposure Analytics
-        ↓
 AI Investigator Copilot
+        ↓
+Sanctions Exposure Analytics
 ```
+
+The numbers match the folders: `05-ai-investigator-copilot` and `06-sanctions-exposure-analytics`.
 
 This progression demonstrates how analytical capabilities evolve from data and network intelligence through to investigation support and AI-enabled operations.
 
@@ -143,27 +151,7 @@ Identify suspicious trading behaviour and connected market participants.
 
 ---
 
-# 05 Sanctions Exposure Analytics
-
-Sanctions investigations increasingly require advanced ownership intelligence, network analytics and exposure assessment capabilities to identify indirect sanctions risk and sanctions evasion activity.
-
-### Example Capabilities
-
-- Ownership Evasion Detection
-- Shadow Fleet Analytics
-- Trade-Based Sanctions Evasion
-- Exposure Intelligence
-- Maritime Network Analysis
-
-### Key Outcome
-
-Identify hidden sanctions exposure, indirect ownership risk and complex sanctions evasion structures across customers, vessels, counterparties and trade networks.
-
-➡️ Open: [05 Sanctions Exposure Analytics](./06-sanctions-exposure-analytics)
-
----
-
-## 06 AI Investigator Copilot
+# 05 AI Investigator Copilot
 
 The AI Investigator Copilot demonstrates how Financial Crime Analytics and Investigation Intelligence can be transformed into AI-assisted investigator workflows.
 
@@ -184,15 +172,31 @@ The capability illustrates how Artificial Intelligence can accelerate investigat
 
 ### Key Outcome
 
-Transform analytical outputs into operational investigation intelligence and AI-assisted decision support.
+Transform analytical outputs into operational investigation intelligence and AI-assisted decision support, enabling faster, more consistent and explainable investigations.
 
-➡ Open: 06 AI Investigator Copilot
+This was the June concept. In NEXUS the copilot is now one case flow inside the investigator workspace, template-worded for now.
+
+➡️ Open: [05 AI Investigator Copilot](./05-ai-investigator-copilot)
+
+---
+
+# 06 Sanctions Exposure Analytics
+
+Sanctions investigations increasingly require advanced ownership intelligence, network analytics and exposure assessment capabilities to identify indirect sanctions risk and sanctions evasion activity.
+
+### Example Capabilities
+
+- Ownership Evasion Detection
+- Shadow Fleet Analytics
+- Trade-Based Sanctions Evasion
+- Exposure Intelligence
+- Maritime Network Analysis
 
 ### Key Outcome
 
-Enable faster, more consistent and explainable investigations.
+Identify hidden sanctions exposure, indirect ownership risk and complex sanctions evasion structures across customers, vessels, counterparties and trade networks.
 
-➡️ Open: [06 AI Investigator Copilot](./05-ai-investigator-copilot)
+➡️ Open: [06 Sanctions Exposure Analytics](./06-sanctions-exposure-analytics)
 
 ---
 
@@ -207,13 +211,11 @@ The showcase is built around six core principles:
 - Human-AI Collaboration
 - Operational Decision Support
 
-  ---
+---
 
 # Repository Status
 
-This repository is actively being developed as a showcase of Financial Crime Analytics, Network Intelligence and AI-enabled operating models.
-
-Additional capabilities, visualisations and investigation journeys will be added over time.
+June 2026 showcase, last changed 9 June 2026 apart from this status update. Development moved to NEXUS; see the status note at the top.
 
 ---
 
@@ -227,12 +229,10 @@ Additional capabilities, visualisations and investigation journeys will be added
 | **02 TBML Analytics** | Trade-Based Money Laundering analytics including over-invoicing, under-invoicing, commodity pricing intelligence and trade risk scoring. |
 | **03 Correspondent Banking Analytics** | Correspondent banking risk analytics, nested banking detection, payment flow intelligence and respondent risk assessment. |
 | **04 Capital Markets Analytics** | Market abuse, insider dealing, trade surveillance and capital markets intelligence capabilities. |
-| **05 Sanctions Exposure Analytics** | Ownership evasion, shadow fleet detection, sanctions exposure intelligence and maritime risk assessment capabilities. |
-| **06 AI Investigator Copilot** | AI-enabled investigator workflows, alert triage, case summarisation and investigation support. |
+| **05 AI Investigator Copilot** | AI-enabled investigator workflows, alert triage, case summarisation and investigation support. |
+| **06 Sanctions Exposure Analytics** | Ownership evasion, shadow fleet detection, sanctions exposure intelligence and maritime risk assessment capabilities. |
 
 ---
-
-## Repository Navigation
 
 ### Recommended Learning Path
 
@@ -247,9 +247,9 @@ START
   ↓
 04 Capital Markets Analytics
   ↓
-05 Sanctions Exposure Analytics
+05 AI Investigator Copilot
   ↓
-06 AI Investigator Copilot
+06 Sanctions Exposure Analytics
   ↓
 END-TO-END FINANCIAL CRIME INTELLIGENCE PLATFORM
 ```
@@ -282,8 +282,8 @@ These capabilities underpin all downstream analytics libraries.
 | 02 | [TBML Analytics](./02-tbml-analytics) |
 | 03 | [Correspondent Banking Analytics](./03-correspondent-banking-analytics) |
 | 04 | [Capital Markets Analytics](./04-capital-markets-analytics) |
-| 05 | [Sanctions Exposure Analytics](./06-sanctions-exposure-analytics) |
-| 06 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
+| 05 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
+| 06 | [Sanctions Exposure Analytics](./06-sanctions-exposure-analytics) |
 
 ---
 ## Showcase Highlights
@@ -299,6 +299,8 @@ The Network Intelligence capability stack provides the foundational intelligence
 - NI003 Beneficial Ownership Intelligence
 - NI004 Network Risk Assessment
 - NI005 Investigation Workflow Intelligence
+
+In NEXUS these five foundation capabilities have been called FND001–FND005 since September 2026.
 
 ### Financial Crime Analytics Domains
 

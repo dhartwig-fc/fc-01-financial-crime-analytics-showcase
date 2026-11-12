@@ -77,7 +77,7 @@ This capability depends on:
 ## Downstream Capabilities Enabled
 
 - [NI005 – Investigation Workflow Intelligence Pattern](../05-investigation-workflows/README.md)
-- [NI006 – AI Investigator Copilot](../06-ai-investigator-copilot/README.md)
+- [NI006 – AI Investigator Copilot](../../05-ai-investigator-copilot/README.md)
 
 ---
 
